@@ -1,7 +1,7 @@
 # Builds the docker-compose for air/OS packages (x86_64 and arm64) on every
 # push to the airos branch and publishes them to the rolling "latest"
 # release, with links in the README. The pipeline itself lives in
-# jmgasper/airos-ci.
+# airos-works/airos-ci.
 name: air/OS build
 
 on:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   airos:
-    uses: jmgasper/airos-ci/.github/workflows/app.yml@main
+    uses: airos-works/airos-ci/.github/workflows/app.yml@main
     with:
       app: compose
       repo-dir: compose
