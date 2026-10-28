@@ -1,4 +1,4 @@
-//go:build linux || openbsd || freebsd
+//go:build linux || openbsd || freebsd || haiku
 
 /*
    Copyright 2020 Docker Compose CLI authors
