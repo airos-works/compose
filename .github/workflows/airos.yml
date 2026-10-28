@@ -15,5 +15,6 @@ jobs:
     with:
       app: compose
       repo-dir: compose
+      publish-branch: airos
     permissions:
       contents: write
