@@ -90,3 +90,16 @@ Legacy
 -------------
 
 The Python version of Compose is available under the `v1` [branch](https://github.com/docker/compose/tree/v1).
+
+<!-- airos-ci:latest-builds:start -->
+## Latest builds
+
+Built automatically by air/OS CI from commit `c30ef91` on 2026-10-28 ([all files](https://github.com/airos-works/compose/releases/tag/latest)).
+
+| Architecture | Package |
+|---|---|
+| arm64 | [docker_compose-2.40.3.git.904.c30ef915a-1-arm64.hpkg](https://github.com/airos-works/compose/releases/download/latest/docker_compose-2.40.3.git.904.c30ef915a-1-arm64.hpkg) |
+| x86_64 | [docker_compose-2.40.3.git.904.c30ef915a-1-x86_64.hpkg](https://github.com/airos-works/compose/releases/download/latest/docker_compose-2.40.3.git.904.c30ef915a-1-x86_64.hpkg) |
+
+Install with `pkgman install <file>`, or copy the file into `/boot/system/packages`. Haiku SDK: x86_64 hrev60207-2103-g6a7d4fd5a3, arm64 hrev60207-2103-g6a7d4fd5a3.
+<!-- airos-ci:latest-builds:end -->
